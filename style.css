@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,black,rgba(77, 75, 75, 0.5));
+    text-align: center;
+}
+.don{
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+#welcome{
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 50px;  
+}
+.display{
+    color: blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* .container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.tile{
+    border: 1px solid blanchedalmond;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+} */
+#board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* background-color: red; */
+}
+.tile{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+.vertical-line{
+    border-right: 3px solid black;
+}
+.winner{
+    color: red;
+    /* background-color: red; */
+}
+#reset{
+    color: blanchedalmond;
+    background-color: black;
+    /* position: relative; */
+    padding: 8px;
+    border: none;
+    margin-left: 1em;
+    /* left: 50%; */
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#adds{
+    color: whitesmoke;
+}
+@media only screen and (max-width: 425px){
+    #board{
+        width: 360px;
+        height: 360px;
+    }
+    .tile{
+        width: 117px;
+        height: 117px;
+        font-size: 120px;
+    }
+}
