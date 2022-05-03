@@ -6,17 +6,16 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: linear-gradient(to right,black,rgba(77, 75, 75, 0.5));
+    background-color:  rgb(47, 47, 47);
     text-align: center;
 }
 .don{
-    font-weight: bold;
-    color: blanchedalmond;
+    color: rgb(180, 180, 180);
     font-size: 30px;
 }
 #welcome{
-    font-weight: bold;
-    color: blanchedalmond;
+    /* font-weight: bold; */
+    color: rgb(146, 146, 145);
     font-size: 50px;  
 }
 .display{
