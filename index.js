@@ -60,7 +60,7 @@ function setGame() {
                 isGameOver = false
                 currentPlayer = playerX
                 tile.innerText = ''
-                
+                tile.classList.remove('winner')
                 e.stopPropagation()
             })
         }
